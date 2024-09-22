@@ -21,7 +21,7 @@ const Herobanner = () => {
             variant="primary"
             size="sm"
             weight="normal"
-            className="2xl:w-[40%] md:w-[70%] w-full m-auto md:ml-0 pt-5 md:text-left text-center px-5 md:px-0"
+            className="2xl:w-[60%] w-full m-auto md:ml-0 pt-5 md:text-left text-center px-5 md:px-0"
           >
             Discover the divine array of our carefully curated menu, ready to
             tantalize your taste buds!
