@@ -18,16 +18,21 @@ const HowItWorks = () => {
       />
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 py-10">
         {CradDetails.map(({ link, title, label }, index) => (
-          <div className="border border-[#9B7706] p-10" key={index}>
-            <div>
+          <div
+            className="darksoul-card border border-[#9B7706] p-10"
+            key={index}
+          >
+            <div className="circle"></div>
+            <div className="content">
               <Image
                 src={link}
                 alt="banner image"
                 width={0}
                 height={0}
                 sizes="100vw"
-                className="w-[30%] m-auto h-auto object-center object-contain"
+                className="w-[30%] m-auto h-auto object-center object-contain z-"
               />
+
               <Typography
                 variant="primary"
                 size="xl"
