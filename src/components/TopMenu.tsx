@@ -2,14 +2,15 @@ import React from "react";
 import Typography from "./Typography";
 import Link from "next/link";
 import { Utensils } from "lucide-react";
+import FlipCard from "./FlipCard";
 
 const TopMenu = () => {
   return (
     <section id="#trybechef">
-      <div className="bg-[#500505] py-20 h-screen">
+      <div className="bg-[#500505] py-20 h-full">
         <div className="px-10 md:px-[80px] lg:px-[150px]">
-          <div className="grid grid-cols-2">
-            <div className="border-[7px] border-y-0 border-l-0 border-[#FFCC2A]">
+          <div className="grid lg:grid-cols-2">
+            <div className="border-[7px] border-y-0 border-l-0 border-none lg:border-[#FFCC2A]">
               <Typography variant="tertiary" size="sm" weight="medium">
                 TOP MENU
               </Typography>
@@ -26,7 +27,7 @@ const TopMenu = () => {
                 </Typography>
               </div>
             </div>
-            <div className="px-20">
+            <div className="lg:px-20 py-5 md:py-0">
               <div className="">
                 <Typography variant="base" size="sm">
                   Indulge in the divine assortment from our exclusive <br />{" "}
@@ -44,10 +45,13 @@ const TopMenu = () => {
             </div>
           </div>
           <div className="pt-20">
-            <div className="grid grid-cols-3 gap-4">
-              <div className="border border-[#9B7706] p-10"></div>
-              <div className="border border-[#9B7706] p-10"></div>
-              <div className="border border-[#9B7706] p-10"></div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <FlipCard />
+              <FlipCard />
+              <FlipCard />
+              {/* <FlipCard />
+              <FlipCard />
+              <FlipCard /> */}
             </div>
           </div>
         </div>

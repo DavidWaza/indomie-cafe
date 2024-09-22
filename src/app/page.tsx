@@ -1,9 +1,12 @@
 "use client";
 import About from "@/components/About";
+import AppDownload from "@/components/AppDownload";
 import HamburgerMenu from "@/components/HamburgerMenu";
 import Header from "@/components/Header";
 import Herobanner from "@/components/Herobanner";
 import HowItWorks from "@/components/HowItWorks";
+import Location from "@/components/Location";
+import Reviews from "@/components/Reviews";
 import TopMenu from "@/components/TopMenu";
 import Lenis from "lenis";
 import { useEffect } from "react";
@@ -38,6 +41,9 @@ export default function Home() {
       <HowItWorks />
       <About />
       <TopMenu />
+      <Reviews />
+      <Location />
+      <AppDownload />
     </div>
   );
 }

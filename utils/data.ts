@@ -8,7 +8,7 @@ export const Navlinks = [
     label: "About Us",
   },
   {
-    link: "",
+    link: "#location",
     label: "Locate Us",
   },
   {
