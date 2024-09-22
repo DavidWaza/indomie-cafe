@@ -23,7 +23,7 @@ const HowItWorks = () => {
             key={index}
           >
             <div className="circle"></div>
-            <div className="content">
+            <div className="content z-50">
               <Image
                 src={link}
                 alt="banner image"
@@ -37,7 +37,7 @@ const HowItWorks = () => {
                 variant="primary"
                 size="xl"
                 weight="semibold"
-                className="text-center py-2 w-1/2 m-auto"
+                className="text-center py-2 lg:w-1/2 m-auto"
               >
                 {title}
               </Typography>
