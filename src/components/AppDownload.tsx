@@ -16,9 +16,9 @@ const AppDownload = () => {
               variant="primary"
               size="md"
               weight="bold"
-              className="leading-[30px] py-3 lg:block hidden"
+              className="leading-[40px] py-3 lg:block hidden"
             >
-              download Our App Today! <br />
+              Download Our App Today! <br />
               Treat Your Taste Buds To <br />
               Heaven
             </Typography>
@@ -28,7 +28,7 @@ const AppDownload = () => {
               weight="bold"
               className="leading-[30px] py-3 lg:hidden block !text-[22px]"
             >
-              download Our App Today! <br />
+              Download Our App Today! <br />
               Treat Your Taste Buds To Heaven
             </Typography>
             <Typography
