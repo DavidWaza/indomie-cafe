@@ -1,6 +1,7 @@
 "use client";
 import About from "@/components/About";
 import AppDownload from "@/components/AppDownload";
+import Footer from "@/components/Footer";
 import HamburgerMenu from "@/components/HamburgerMenu";
 import Header from "@/components/Header";
 import Herobanner from "@/components/Herobanner";
@@ -44,6 +45,7 @@ export default function Home() {
       <Reviews />
       <Location />
       <AppDownload />
+      <Footer />
     </div>
   );
 }

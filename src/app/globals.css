@@ -147,7 +147,20 @@ html.lenis body {
   font-weight: 600;
   transform: rotateY(180deg);
 }
+.doodle-bg {
+  background-image: url("https://res.cloudinary.com/dgbl43ljm/image/upload/v1727016389/Vector_gokuuz.svg");
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
+.footer-hero {
+  background-image: url("https://res.cloudinary.com/dgbl43ljm/image/upload/v1727017733/Vector_1_slhyki.svg");
+  background-position: top center;
+  height: 50vh;
+  background-size: cover;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
