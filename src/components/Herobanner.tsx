@@ -6,8 +6,25 @@ import { CircleArrowUp, Utensils } from "lucide-react";
 
 const Herobanner = () => {
   return (
-    <div className="banner-hero bg-[#FFF6F7] ">
-      <div className="grid lg:grid-cols-2 2xl:grid-cols-2 md:px-[80px] lg:px-[150px]">
+    <div className="banner-hero relative bg-[#FFF6F7] ">
+      <div className="grid lg:grid-cols-2 2xl:grid-cols-2 md:px-[80px] lg:px-[150px] relative">
+        <Image
+          src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727120293/Ellipse_1_k24x1n.svg"
+          alt="banner image"
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="w-[2%] h-auto object-center object-contain absolute z-20 top-[6rem] lg:translate-x-[10rem] translate-x-12"
+        />
+        <Image
+          src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727120292/Ellipse_4_fexaem.svg"
+          alt="banner image"
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="w-[10%] h-auto object-center object-contain absolute top-[6rem] lg:translate-x-[15rem] translate-x-12"
+        />
+
         <div className="lg:pt-[10rem] md:pt-[5rem] py-10">
           <Typography
             variant="primary"
@@ -22,7 +39,7 @@ const Herobanner = () => {
     lg:leading-[70px] 
     xl:text-[70px] 
     xl:leading-[80px] 
-    text-center md:text-left w-full px-5 md:px-0 font-extrabold
+    text-center md:text-left w-full px-5 md:px-0 font-extrabold relative z-30
   "
           >
             We don&apos;t just cook, we serve delicious goodness!
@@ -64,6 +81,30 @@ const Herobanner = () => {
           </div>
         </div>
         <div className="lg:pt-[7rem] 2xl:pt-[8rem] relative">
+          <Image
+            src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727120292/Ellipse_3_emqdmi.svg"
+            alt="banner image"
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="w-[2%] h-auto object-center object-contain absolute z-20 top-[6rem] lg:translate-x-[2rem] translate-x-12"
+          />
+          <Image
+            src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727120293/Ellipse_1_k24x1n.svg"
+            alt="banner image"
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="w-[2%] h-auto object-center object-contain absolute top-[6rem] lg:translate-x-[15rem] translate-x-12"
+          />
+          <Image
+            src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727120292/Hero_Dot_lwv4ku.svg"
+            alt="banner image"
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="w-[6%] h-auto object-center object-contain absolute bottom-10 lg:translate-x-[15rem] translate-x-12"
+          />
           <Image
             src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727107893/Frame_7_nskyuq.png"
             alt="banner image"
