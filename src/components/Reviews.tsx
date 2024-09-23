@@ -2,6 +2,7 @@ import React from "react";
 import Typography from "./Typography";
 import Image from "next/image";
 import { Quote } from "lucide-react";
+import CarouselReview from "./CarouselReview";
 
 const Reviews = () => {
   return (
@@ -39,21 +40,7 @@ const Reviews = () => {
           <div className="py-10 lg:pt-[10rem] px-5">
             <Quote size={30} color="#FFCC2A" className="rotate-180" />
             <div className="pt-10">
-              <Typography variant="primary" size="sm">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-                aute irure dolor in reprehenderit in voluptate velit. Labore et
-                dolore magna aliqua. Duis aute irure dolor in reprehenderit in
-                voluptate velit.
-              </Typography>
-              <Typography
-                variant="primary"
-                size="sm"
-                weight="semibold"
-                className="py-5"
-              >
-                David Waza
-              </Typography>
+              <CarouselReview />
             </div>
           </div>
         </div>
