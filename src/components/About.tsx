@@ -25,7 +25,7 @@ const About = () => {
               variant="primary"
               size="md"
               weight="bold"
-              className="leading-[30px] py-3"
+              className="leading-[40px] py-3"
             >
               Where your tastebuds <br />
               reaches heaven
