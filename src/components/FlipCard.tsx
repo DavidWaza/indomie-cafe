@@ -25,10 +25,10 @@ const FlipCard: React.FC<IFlipCardProps> = ({ imgSrc }) => {
           </div>
           <div className="flip-card-back">
             <div className="py-10">
-              <Typography variant="primary" size="md" weight="semibold">
+              <Typography variant="primary" size="sm" weight="semibold" className="!text-[24px]">
                 Cripsy Chicken Bites
               </Typography>
-              <div className="pt-10 flex justify-center ">
+              <div className="pt-10 flex justify-center items-center absolute bottom-10 left-0 right-0">
                 <Link href={"https://indomiecafe.ng/order-online/"}>
                   <button className="bg-[#FFCC2A] py-2 md:px-10 px-5 flex items-center text-black font-medium gap-2 hover:translate-x-2 transition-all ease-in-out text-nowrap">
                     <CircleArrowUp size={20} className="rotate-45" />

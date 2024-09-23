@@ -5,7 +5,7 @@ import { CradDetails } from "../../utils/data";
 
 const HowItWorks = () => {
   return (
-    <div className="bg-[#FFD4D4] py-20 px-10 md:px-[80px] lg:px-[150px] ">
+    <div className="bg-[#FFF6F7] py-20 px-10 md:px-[80px] lg:px-[150px] ">
       <Image
         src={
           "https://res.cloudinary.com/dgbl43ljm/image/upload/v1726960529/Vector_7_rb1yst.svg"
@@ -19,11 +19,11 @@ const HowItWorks = () => {
       <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-5 py-10">
         {CradDetails.map(({ link, title, label }, index) => (
           <div
-            className="darksoul-card border border-[#9B7706] p-10"
+            className="darksoul-card border border-[#9B7706]"
             key={index}
           >
             <div className="circle"></div>
-            <div className="content z-50">
+            <div className="content z-50 py-5">
               <Image
                 src={link}
                 alt="banner image"
@@ -37,7 +37,7 @@ const HowItWorks = () => {
                 variant="primary"
                 size="xl"
                 weight="semibold"
-                className="text-center py-2 lg:w-1/2 m-auto"
+                className="text-center py-2 md:w-[60%] m-auto"
               >
                 {title}
               </Typography>

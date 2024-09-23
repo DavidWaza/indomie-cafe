@@ -109,7 +109,7 @@ html.lenis body {
 .flip-card {
   background-color: transparent;
   border: 1px solid #9b7706;
-  height: 500px;
+  height: 405px;
   width: 100%;
   padding: 30px;
   perspective: 1000px;
@@ -142,7 +142,8 @@ html.lenis body {
 }
 
 .flip-card-back {
-  background-color: white;
+  border-radius: 30px;
+  background-color: #fdeebb;
   color: black;
   font-weight: 600;
   transform: rotateY(180deg);
@@ -158,7 +159,7 @@ html.lenis body {
 .footer-hero {
   background-image: url("https://res.cloudinary.com/dgbl43ljm/image/upload/v1727017733/Vector_1_slhyki.svg");
   background-position: top center;
-  height: 55vh;
+  height: 100%;
   background-size: cover;
 }
 @layer utilities {
@@ -192,7 +193,7 @@ html.lenis body {
   background-image: url("https://res.cloudinary.com/dgbl43ljm/image/upload/v1727013904/Location_hajrjn.png");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 120vh;
 }
 
 /* Mobile responsive */

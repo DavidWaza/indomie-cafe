@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const AppDownload = () => {
   return (
-    <div className="bg-[#FFD4D4] py-10 md:py-[7rem] px-10 md:px-[80px] lg:px-[150px]">
+    <div className="bg-[#FFF6F7] py-10 md:py-[7rem] px-10 md:px-[80px] lg:px-[150px]">
       <div className="grid md:grid-cols-2">
         <div>
           <div className="bean-overlap-img">

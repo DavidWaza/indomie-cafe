@@ -16,10 +16,8 @@ import { CircleArrowUp } from "lucide-react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#FFD4D4] footer-hero lg:py-[10rem] px-10 md:px-[80px] lg:px-[150px] flex flex-col items-center">
-
+    <div className="bg-[#FFF6F7] footer-hero lg:pt-[10rem] px-10 md:px-[80px] lg:px-[150px] flex flex-col items-center">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
-  
         <div className="space-y-3 lg:space-y-5 pt-20 md:pt-0">
           <Typography variant="base" size="sm" weight="semibold">
             Quick links
@@ -41,7 +39,7 @@ const Footer = () => {
               Locations
             </Typography>
             <Select>
-              <SelectTrigger className="w-full md:w-1/2">
+              <SelectTrigger className="w-full md:w-1/2 lg:w-[70%]">
                 <SelectValue placeholder="Indomie Cafe Surulere" />
               </SelectTrigger>
               <SelectContent>

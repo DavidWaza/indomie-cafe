@@ -42,7 +42,7 @@ const TopMenu = () => {
       <div className="bg-[#500505] py-20 h-full">
         <div className="px-10 md:px-[80px] lg:px-[150px]">
           <div className="grid lg:grid-cols-2">
-            <div className="border-[7px] border-y-0 border-l-0 border-none lg:border-[#FFCC2A]">
+            <div className="border-[9px] border-y-0 border-l-0 border-[#FFCC2A]">
               <Typography variant="tertiary" size="sm" weight="medium">
                 TOP MENU
               </Typography>

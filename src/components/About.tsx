@@ -5,7 +5,7 @@ import Typography from "./Typography";
 const About = () => {
   return (
     <section id="about">
-      <div className="about-hero bg-[#FFD4D4] lg:py-[15rem] px-10 md:px-[80px] lg:px-[150px]">
+      <div className="about-hero bg-[#FFF6F7] lg:py-[15rem] px-10 md:px-[80px] lg:px-[150px]">
         <div className="grid lg:grid-cols-2 gap-10">
           <div>
             <Image
@@ -14,7 +14,7 @@ const About = () => {
               width={0}
               height={0}
               sizes="100vw"
-              className="w-full h-auto object-center pt-20 lg:pt-0 object-contain"
+              className="w-full h-auto object-center pt-[6rem] lg:pt-0 object-contain"
             />
           </div>
           <div className="bean-overlap-img">
@@ -25,12 +25,12 @@ const About = () => {
               variant="primary"
               size="md"
               weight="bold"
-              className="leading-[40px] py-3"
+              className="leading-[40px] !font-[800] py-3"
             >
               Where your tastebuds <br />
               reaches heaven
             </Typography>
-            <Typography variant="primary" size="sm" className="py-5">
+            <Typography variant="primary" size="sm" className="py-2 2xl:leading-[40px] 2xl:!text-[22px]">
               Indomie Cafe is the first Noodle Bar in Nigeria which is making
               fusion food a big hit among many foodies! Our delicious and
               innovative recipes offer spicy taste and visual treats for all our
