@@ -1,6 +1,15 @@
 import Link from "next/link";
 import React from "react";
 import Typography from "./Typography";
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectTrigger,
+  SelectValue,
+} from "./ui/select";
 
 const footLinks = [
   {
@@ -26,7 +35,7 @@ const Footer = () => {
             Quick links
           </Typography>
           {footLinks.map(({ link, label }, index) => (
-            <div key={index} >
+            <div key={index}>
               <Link href={link}>
                 <Typography variant="base" size="sm" className="">
                   {label}
@@ -38,17 +47,23 @@ const Footer = () => {
         <div>
           <div className="space-y-5">
             <Typography variant="base" size="sm" weight="semibold">
-             Locations
+              Locations
             </Typography>
-            {footLinks.map(({ link, label }, index) => (
-              <div key={index}>
-                <Link href={link}>
-                  <Typography variant="base" size="sm" className="">
-                    {label}
-                  </Typography>
-                </Link>
-              </div>
-            ))}
+            <Select>
+              <SelectTrigger className="w-full">
+                <SelectValue placeholder="Indomie Cafe Surulere" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectGroup>
+                  <SelectLabel>Fruits</SelectLabel>
+                  <SelectItem value="apple">Indomie Cafe Abuja</SelectItem>
+                  <SelectItem value="banana">Indomie Cafe Jakanda</SelectItem>
+                  <SelectItem value="blueberry">Indomie Cafe Yaba</SelectItem>
+                  <SelectItem value="grapes">Indomie Cafe VI</SelectItem>
+                  <SelectItem value="pineapple">Indomie Cafe Ikeja</SelectItem>
+                </SelectGroup>
+              </SelectContent>
+            </Select>
           </div>
         </div>
         <div>

@@ -9,7 +9,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-10">
           <div>
             <Image
-              src={`https://res.cloudinary.com/dgbl43ljm/image/upload/v1726962309/Frame_18_jwttca.png`}
+              src={`https://res.cloudinary.com/dgbl43ljm/image/upload/v1727076042/Frame_18_ykhpih.svg`}
               alt="banner image"
               width={0}
               height={0}

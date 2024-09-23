@@ -70,7 +70,7 @@ const AppDownload = () => {
             width={0}
             height={0}
             sizes="100vw"
-            className="w-1/2 h-auto m-auto object-center lg:pt-0 object-contain"
+            className="2xl:w-1/2 w-full h-auto m-auto object-center lg:pt-0 object-contain"
           />
         </div>
       </div>

@@ -16,7 +16,7 @@ const HowItWorks = () => {
         sizes="100vw"
         className="lg:w-[15%] w-1/2 m-auto h-auto object-center object-contain"
       />
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 py-10">
+      <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-5 py-10">
         {CradDetails.map(({ link, title, label }, index) => (
           <div
             className="darksoul-card border border-[#9B7706] p-10"

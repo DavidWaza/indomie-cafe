@@ -43,7 +43,7 @@ const Herobanner = () => {
         </div>
         <div className="py-10 2xl:pt-[5rem] relative">
           <Image
-            src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1726952734/Hero_Food_jjdedw.svg"
+            src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727075820/Big_anqge4.svg"
             alt="banner image"
             width={0}
             height={0}
@@ -52,7 +52,7 @@ const Herobanner = () => {
           />
           <div className="flex items-center relative">
             <Image
-              src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1726953662/Hero_Food_2_jemlzh.svg"
+              src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727075817/Hero_Food_o13gsz.svg"
               alt="banner image"
               width={0}
               height={0}
@@ -60,7 +60,7 @@ const Herobanner = () => {
               className="w-[30%] m-auto h-auto object-center object-contain pulse-scale-2"
             />
             <Image
-              src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1726953126/Hero_Food_1_ba3l2z.svg"
+              src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727075821/Hero_Food_1_mhnqbx.svg"
               alt="banner image"
               width={0}
               height={0}

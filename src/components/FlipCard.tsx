@@ -4,16 +4,18 @@ import Typography from "./Typography";
 import Link from "next/link";
 import { CircleArrowUp } from "lucide-react";
 
-const FlipCard = () => {
+interface IFlipCardProps {
+  imgSrc: string;
+  // label: string;
+}
+const FlipCard: React.FC<IFlipCardProps> = ({ imgSrc }) => {
   return (
     <div>
       <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <Image
-              src={
-                "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727010442/Front_cu9ccw.png"
-              }
+              src={imgSrc}
               alt=""
               width={0}
               height={0}
