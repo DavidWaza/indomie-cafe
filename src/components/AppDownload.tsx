@@ -5,10 +5,40 @@ import Image from "next/image";
 
 const AppDownload = () => {
   return (
-    <div className="bg-[#FFF6F7] py-10 md:py-[7rem] px-10 md:px-[80px] lg:px-[150px]">
+    <div className="bg-[#FFF6F7] relative py-10 md:py-[7rem] px-10 md:px-[80px] lg:px-[150px]">
+      <Image
+        src={
+          "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727118655/picture-tomato-tomato-with-word-tomato-it_1128301-3145_2_kltnol.svg"
+        }
+        alt=""
+        width={0}
+        height={0}
+        sizes="100vw"
+        className="absolute w-[7%] h-auto object-center object-contain"
+      />
+      <Image
+        src={
+          "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727118655/Screenshot_2024-09-20_175303_1_m279ym.svg"
+        }
+        alt=""
+        width={0}
+        height={0}
+        sizes="100vw"
+        className="absolute right-10 w-[10%] h-auto object-center object-contain"
+      />
+      <Image
+        src={
+          "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727118656/picture-tomato-tomato-with-word-tomato-it_1128301-3145_1_yvogqb.svg"
+        }
+        alt="Tomato"
+        width={0}
+        height={0}
+        sizes="100vw"
+        className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[10%] h-auto object-center object-contain"
+      />
       <div className="grid md:grid-cols-2">
         <div>
-          <div className="bean-overlap-img">
+          <div>
             <Typography variant="secondary" size="sm" weight="semibold">
               APP DOWNLOAD
             </Typography>
