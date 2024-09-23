@@ -7,13 +7,13 @@ import { CircleArrowUp, Utensils } from "lucide-react";
 const Herobanner = () => {
   return (
     <div className="banner-hero bg-[#FFD4D4] ">
-      <div className="grid 2xl:grid-cols-2 md:px-[80px] lg:px-[150px]">
+      <div className="grid lg:grid-cols-2 2xl:grid-cols-2 md:px-[80px] lg:px-[150px]">
         <div className="lg:pt-[10rem] md:pt-[5rem] py-10">
           <Typography
             variant="primary"
             size="xl"
             weight="bold"
-            className="md:!text-[62px] text-[30px] md:text-left text-center leading-[40px] md:leading-[70.7px] font-extrabold w-full 2xl:w-[90%] px-5 md:px-0"
+            className="md:!text-[62px] lg:!text-[30px] xl:!text-[62px]  lg:!leading-[41.7px] xl:!leading-[60px] text-[30px] md:text-left text-center leading-[40px] md:leading-[70.7px] font-extrabold w-full 2xl:w-[90%] px-5 md:px-0"
           >
             We don&apos;t just cook, we serve delicious goodness!
           </Typography>
@@ -41,7 +41,7 @@ const Herobanner = () => {
             </Link>
           </div>
         </div>
-        <div className="py-10 2xl:pt-[5rem] relative">
+        <div className="lg:pt-[7rem] 2xl:pt-[5rem] relative">
           <Image
             src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727075820/Big_anqge4.svg"
             alt="banner image"
