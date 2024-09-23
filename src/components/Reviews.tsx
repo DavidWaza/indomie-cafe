@@ -38,7 +38,16 @@ const Reviews = () => {
             className="w-full lg:w-2/3 m-auto h-auto object-center object-contain"
           />
           <div className="py-10 lg:pt-[10rem] px-5">
-            <Quote size={30} color="#FFCC2A" className="rotate-180" />
+            <Image
+              src={
+                "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727117730/quote-down_mcfy84.svg"
+              }
+              alt=""
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="w-[20%] lg:w-[7%] h-auto object-center object-contain"
+            />
             <div className="pt-10">
               <CarouselReview />
             </div>

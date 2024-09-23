@@ -34,7 +34,7 @@ const AppDownload = () => {
             <Typography
               variant="primary"
               size="sm"
-              className="lg:w-1/2 lg:pt-5"
+              className="lg:w-[80%] lg:pt-5"
             >
               Lorem ipsum dolor sit amet, consectetur adipisic ingelit, sed do
               eiusmod tempor incididunt utlabo re et dolore magna aliqua.

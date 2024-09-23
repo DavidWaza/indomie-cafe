@@ -63,14 +63,14 @@ const Herobanner = () => {
             </Link>
           </div>
         </div>
-        <div className="lg:pt-[7rem] 2xl:pt-[5rem] relative">
+        <div className="lg:pt-[7rem] 2xl:pt-[8rem] relative">
           <Image
             src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727107893/Frame_7_nskyuq.png"
             alt="banner image"
             width={0}
             height={0}
             sizes="100vw"
-            className="w-[70%] h-auto object-center object-contain absolute z-20 -top-1 lg:translate-x-[7rem] translate-x-12"
+            className="w-[70%] h-auto object-center object-contain absolute z-20 top-10 -left-20 lg:translate-x-[7rem] translate-x-12"
           />
           <Image
             src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727075820/Big_anqge4.svg"
