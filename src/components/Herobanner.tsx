@@ -27,7 +27,7 @@ const Herobanner = () => {
             tantalize your taste buds!
           </Typography>
           <div className="flex items-center justify-center md:justify-start py-10 gap-5">
-            <Link href={"https://indomiecafe.ng/order-online/"}>
+            <Link href={"#topmenu"} id="#topmenu">
               <button className="bg-[#DA0A0C] py-2 md:px-10 text-white px-5 flex items-center font-medium gap-2 hover:translate-x-2 transition-all ease-in-out text-nowrap">
                 <Utensils size={20} />
                 Our Menu

@@ -18,9 +18,9 @@ const Reviews = () => {
         </Typography>
         <Typography
           variant="primary"
-          size="sm"
+          size="lg"
           weight="bold"
-          className="text-center"
+          className="text-center !text-[42px]"
         >
           What our customer say
         </Typography>
