@@ -81,9 +81,6 @@ const TopMenu = () => {
               {FlipCardData.map(({ imgSrc }, index) => (
                 <FlipCard key={index} imgSrc={imgSrc} />
               ))}
-              {/* <FlipCard />
-              <FlipCard />
-              <FlipCard /> */}
             </div>
           </div>
         </div>

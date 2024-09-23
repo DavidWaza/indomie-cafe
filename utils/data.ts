@@ -44,3 +44,33 @@ export const CradDetails = [
       "The charm of the home like food comes with the combination of salt, sour, sweet and spices.",
   },
 ];
+
+export const footLinks = [
+  {
+    link: "/",
+    label: "Home",
+  },
+  {
+    link: "#location",
+    label: "Locate Us",
+  },
+  {
+    link: "",
+    label: "Order Online",
+  },
+];
+
+export const socialLinks = [
+  {
+    icon: "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727078555/Frame_39_xac9mb.svg",
+    link: "https://web.facebook.com/IndomieCafe/?_rdc=1&_rdr",
+  },
+  {
+    icon: "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727078554/Frame_40_oizsws.svg",
+    link: "https://www.instagram.com/indomiecafe/",
+  },
+  {
+    icon: "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727078554/Frame_41_w8lxd3.svg",
+    link: "https://x.com/IndomieCafe?s=08",
+  },
+];
