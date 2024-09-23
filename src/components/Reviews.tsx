@@ -24,7 +24,7 @@ const Reviews = () => {
           What our customer say
         </Typography>
       </div>
-      <div className="py-10">
+      <div className="pt-10">
         <div className="grid md:grid-cols-2">
           <Image
             src={
@@ -36,7 +36,7 @@ const Reviews = () => {
             sizes="100vw"
             className="w-full lg:w-2/3 m-auto h-auto object-center object-contain"
           />
-          <div className="py-10 lg:pt-[10rem] px-10">
+          <div className="py-10 lg:pt-[10rem] px-5">
             <Quote size={30} color="#FFCC2A" className="rotate-180" />
             <div className="pt-10">
               <Typography variant="primary" size="sm">
