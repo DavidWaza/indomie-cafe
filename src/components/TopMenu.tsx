@@ -56,7 +56,7 @@ const TopMenu = () => {
                   variant="base"
                   size="md"
                   weight="bold"
-                  className="pt-3 lg:!text-[26px] 2xl:!text-[36px] leading-[40px] border-[9px] border-y-0 border-l-0 border-[#FFCC2A]"
+                  className="pt-3 text-[22px] leading-[35px] lg:!text-[26px] 2xl:!text-[36px] md:leading-[40px] border-[9px] border-y-0 border-l-0 border-[#FFCC2A]"
                 >
                   Craft Your Culinary Journey: <br />
                   Personalize Your Plate with <br />
