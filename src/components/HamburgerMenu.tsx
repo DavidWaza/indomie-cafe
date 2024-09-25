@@ -2,11 +2,12 @@
 import React, { useState } from "react";
 import { Sling as Hamburger } from "hamburger-react";
 import { Navlinks } from "../../utils/data";
-import Link from "next/link";
+
 import Typography from "./Typography";
 import { usePathname } from "next/navigation";
 import { CircleArrowUp } from "lucide-react";
 import Image from "next/image";
+import { Link } from "react-scroll";
 
 const HamburgerMenu = () => {
   const [isOpen, setOpen] = useState(false);
@@ -46,7 +47,14 @@ const HamburgerMenu = () => {
           {isOpen &&
             Navlinks.map(({ link, label }, index) => (
               <div key={index} className="p-3 border-b hover:bg-gray-100">
-                <Link href={link}>
+                <Link
+                  to={link}
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  className="cursor-pointer"
+                >
                   <Typography
                     variant="primary"
                     size="sm"
@@ -60,12 +68,12 @@ const HamburgerMenu = () => {
                 </Link>
               </div>
             ))}
-          <Link href={"https://indomiecafe.ng/order-online/"}>
-            <button className="bg-[#DA0A0C] py-2 w-full flex items-center gap-2 justify-center  transition-all ease-in-out">
+          <a href="https://indomiecafe.ng/order-online/">
+            <button className="bg-[#DA0A0C] py-2 px-10 flex items-center gap-2 hover:translate-x-6 transition-all text-white ease-in-out">
               <CircleArrowUp size={20} className="rotate-45" />
               Order Now
             </button>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

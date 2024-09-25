@@ -50,7 +50,7 @@ const Reviews = () => {
           variant="primary"
           size="lg"
           weight="bold"
-          className="text-center !text-[42px]"
+          className="text-center leading-[40px] text-[32px  ] lg:!text-[42px]"
         >
           What our customer say
         </Typography>
