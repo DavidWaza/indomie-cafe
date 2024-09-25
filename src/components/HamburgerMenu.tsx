@@ -13,7 +13,7 @@ const HamburgerMenu = () => {
   const pathname = usePathname();
 
   return (
-    <div className="flex bg-white items-center justify-between px-10">
+    <div className="flex bg-white items-center justify-between px-10 relative z-50">
       <div>
         <Image
           src={

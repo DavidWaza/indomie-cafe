@@ -39,7 +39,7 @@ const FlipCardData = [
 const TopMenu = () => {
   return (
     <section id="topmenu">
-      <div className="bg-[#500505] py-20 h-full">
+      <div className="bg-[#500505] py-20 h-full ">
         <div className="px-10 md:px-[80px] 2xl:px-[150px]">
           <div className="grid lg:grid-cols-2">
             <div className=" ">
