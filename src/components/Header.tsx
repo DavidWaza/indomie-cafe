@@ -32,6 +32,7 @@ const Header = () => {
                 smooth={true}
                 duration={500}
                 offset={-70}
+                className="cursor-pointer"
               >
                 <Typography
                   variant="primary"
