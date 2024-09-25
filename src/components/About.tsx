@@ -25,12 +25,12 @@ const About = () => {
               variant="primary"
               size="md"
               weight="bold"
-              className="leading-[40px] !font-[800] py-3"
+              className="leading-[40px] !font-[800] pb-3 pt-1"
             >
               Where your tastebuds <br />
               reaches heaven
             </Typography>
-            <Typography variant="primary" size="sm" className="py-2 2xl:leading-[40px] 2xl:!text-[22px]">
+            <Typography variant="primary" size="sm" className="py-2 lg:text-[20px] 2xl:leading-[40px] 2xl:!text-[22px]">
               Indomie Cafe is the first Noodle Bar in Nigeria which is making
               fusion food a big hit among many foodies! Our delicious and
               innovative recipes offer spicy taste and visual treats for all our

@@ -205,6 +205,9 @@ html.lenis body {
   .footer-hero {
     height: 100%;
   }
+  .banner-hero {
+    height: 100vh;
+  }
 }
 
 @layer base {
