@@ -93,7 +93,7 @@ const AppDownload = () => {
             </div>
           </div>
         </div>
-        <div className="doodle-bg relative">
+        <div className="doodle-bg lg:block hidden relative">
           <Image
             src={`https://res.cloudinary.com/dgbl43ljm/image/upload/v1727028669/Bike_and_Phone_qy8ec1.png`}
             alt="banner image"
