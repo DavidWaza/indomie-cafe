@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Typography from "./Typography";
+import { Element } from 'react-scroll'
 
 const About = () => {
   return (
-    <section id="about">
+    <Element name="about">
       <div className="about-hero bg-[#FFF6F7] lg:py-[15rem] px-10 md:px-[80px] lg:px-[150px]">
         <div className="grid lg:grid-cols-2 gap-10">
           <div>
@@ -45,7 +46,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Element>
   );
 };
 

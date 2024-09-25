@@ -4,11 +4,11 @@ export const Navlinks = [
     label: "Home",
   },
   {
-    link: "#about",
+    link: "about",
     label: "About Us",
   },
   {
-    link: "#location",
+    link: "location",
     label: "Locate Us",
   },
   {
