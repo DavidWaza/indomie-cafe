@@ -39,14 +39,14 @@ const AppDownload = () => {
       <div className="grid md:grid-cols-2">
         <div>
           <div>
-            <Typography variant="secondary" size="sm" weight="semibold">
+          <Typography variant="secondary" size="sm" weight="medium" className="text-[24px]">
               APP DOWNLOAD
             </Typography>
             <Typography
               variant="primary"
               size="md"
               weight="bold"
-              className="leading-[40px] py-3 lg:block hidden"
+              className="leading-[40px] py-3 lg:block hidden "
             >
               Download Our App Today! <br />
               Treat Your Taste Buds To <br />
@@ -64,7 +64,7 @@ const AppDownload = () => {
             <Typography
               variant="primary"
               size="sm"
-              className="lg:w-[80%] lg:pt-5"
+              className="w-full lg:pt-5 text-[24px]"
             >
               Lorem ipsum dolor sit amet, consectetur adipisic ingelit, sed do
               eiusmod tempor incididunt utlabo re et dolore magna aliqua.
@@ -93,14 +93,14 @@ const AppDownload = () => {
             </div>
           </div>
         </div>
-        <div className="doodle-bg">
+        <div className="doodle-bg relative">
           <Image
             src={`https://res.cloudinary.com/dgbl43ljm/image/upload/v1727028669/Bike_and_Phone_qy8ec1.png`}
             alt="banner image"
             width={0}
             height={0}
             sizes="100vw"
-            className="2xl:w-1/2 w-full h-auto m-auto object-center lg:pt-0 object-contain"
+            className="lg:w-[75%] w-full h-auto absolute right-6 top-0 object-center lg:pt-0 object-contain"
           />
         </div>
       </div>

@@ -19,7 +19,7 @@ const About = () => {
             />
           </div>
           <div className="bean-overlap-img">
-            <Typography variant="secondary" size="sm" weight="semibold">
+            <Typography variant="secondary" size="sm" weight="medium" className="text-[24px]">
               ABOUT US
             </Typography>
             <Typography

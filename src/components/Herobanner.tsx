@@ -7,8 +7,8 @@ import { CircleArrowUp, Utensils } from "lucide-react";
 const Herobanner = () => {
   return (
     <div className="banner-hero relative bg-[#FFF6F7] ">
-      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 px-5 sm:px-10 md:px-[80px] lg:px-[150px] relative">
-        <div className="xl:col-span-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2  2xl:grid-cols-3 px-5 sm:px-10 md:px-[80px] lg:px-[150px] relative">
+        <div className="2xl:col-span-2">
           <Image
             src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727120293/Ellipse_1_k24x1n.svg"
             alt="banner image"
@@ -40,8 +40,10 @@ const Herobanner = () => {
     md:leading-[60px] 
     lg:text-[35px] 
     lg:leading-[44px] 
-    xl:text-[70px] 
-    xl:leading-[80px] 
+    xl:text-[47px]
+    xl:leading-[60px] 
+    2xl:text-[70px] 
+    2xl:leading-[80px] 
     text-center md:text-left w-full px-5 md:px-0 font-extrabold relative z-30
   "
             >
@@ -51,7 +53,7 @@ const Herobanner = () => {
               variant="primary"
               size="sm"
               weight="normal"
-              className="block text-sm xl:block lg:hidden w-full mx-auto md:ml-0 pt-5 text-center md:text-left px-5 lg:text-[20px] lg:leading-[30px] md:px-0 xl:!text-[24px] xl:leading-[40px]"
+              className="block text-sm xl:block lg:hidden w-full mx-auto md:ml-0 pt-5 text-center md:text-left px-5 lg:text-[20px] lg:leading-[27px] md:px-0 xl:!text-[24px] xl:leading-[37px]"
             >
               Discover the divine array of our carefully <br /> curated menu,
               ready to tantalize your taste <br />

@@ -41,8 +41,8 @@ const Reviews = () => {
         <Typography
           variant="secondary"
           size="sm"
-          weight="semibold"
-          className="text-center"
+          weight="medium"
+          className="text-[24px] text-center"
         >
           REVIEWS
         </Typography>
@@ -67,7 +67,7 @@ const Reviews = () => {
             sizes="100vw"
             className="w-full lg:w-2/3 m-auto h-auto object-center object-contain"
           />
-          <div className="py-10 lg:pt-[10rem] px-5">
+          <div className="py-10 lg:pt-[8rem] px-5">
             <Image
               src={
                 "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727117730/quote-down_mcfy84.svg"
@@ -76,7 +76,7 @@ const Reviews = () => {
               width={0}
               height={0}
               sizes="100vw"
-              className="w-[20%] lg:w-[7%] h-auto object-center object-contain"
+              className="w-[20%] lg:w-[10%] h-auto object-center object-contain"
             />
             <div className="pt-10">
               <CarouselReview />

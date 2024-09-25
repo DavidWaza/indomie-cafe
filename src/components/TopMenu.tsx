@@ -40,10 +40,15 @@ const TopMenu = () => {
   return (
     <section id="topmenu">
       <div className="bg-[#500505] py-20 h-full">
-        <div className="px-10 md:px-[80px] lg:px-[150px]">
+        <div className="px-10 md:px-[80px] 2xl:px-[150px]">
           <div className="grid lg:grid-cols-2">
-            <div className="border-[9px] border-y-0 border-l-0 border-[#FFCC2A]">
-              <Typography variant="tertiary" size="sm" weight="medium">
+            <div className=" ">
+              <Typography
+                variant="tertiary"
+                size="sm"
+                weight="medium"
+                className="text-[24px]"
+              >
                 TOP MENU
               </Typography>
               <div className="">
@@ -51,7 +56,7 @@ const TopMenu = () => {
                   variant="base"
                   size="md"
                   weight="bold"
-                  className="leading-[40px]"
+                  className="pt-3 lg:!text-[26px] 2xl:!text-[36px] leading-[40px] border-[9px] border-y-0 border-l-0 border-[#FFCC2A]"
                 >
                   Craft Your Culinary Journey: <br />
                   Personalize Your Plate with <br />
@@ -59,13 +64,17 @@ const TopMenu = () => {
                 </Typography>
               </div>
             </div>
-            <div className="lg:px-20 py-5 md:py-0">
+            <div className="lg:px-10 2xl:px-20 py-5 md:py-0">
               <div className="">
-                <Typography variant="base" size="sm">
-                  Indulge in the divine assortment from our exclusive <br />{" "}
-                  menu selection!
+                <Typography
+                  variant="base"
+                  size="sm"
+                  className="lg:text-[20px] 2xl:text-[24px] lg:leading-[30px] 2xl:leading-[44px]"
+                >
+                  Indulge in the divine assortment from our exclusive menu
+                  selection!
                 </Typography>
-                <div className="pt-10">
+                <div className="pt-4">
                   <Link href={"https://indomiecafe.ng/order-online/"}>
                     <button className="bg-[#FFCC2A] py-2 md:px-10 px-5 flex items-center text-black font-medium gap-2 hover:translate-x-2 transition-all ease-in-out text-nowrap">
                       <Utensils size={20} />

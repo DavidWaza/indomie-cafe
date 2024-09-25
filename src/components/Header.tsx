@@ -46,7 +46,6 @@ const Header = () => {
             </div>
           ))}
         </div>
-        {/* External link should use <a> tag or next/link */}
         <a href="https://indomiecafe.ng/order-online/">
           <button className="bg-[#DA0A0C] py-2 px-10 flex items-center gap-2 hover:translate-x-6 transition-all text-white ease-in-out">
             <CircleArrowUp size={20} className="rotate-45" />
