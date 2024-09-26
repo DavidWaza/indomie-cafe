@@ -15,6 +15,9 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Indomie Cafe",
+  icons: {
+    icon: "/favicon.ico",
+  },
   description: "Indomie Cafe",
 };
 

@@ -25,8 +25,13 @@ const FlipCard: React.FC<IFlipCardProps> = ({ imgSrc }) => {
           </div>
           <div className="flip-card-back">
             <div className="py-10">
-              <Typography variant="primary" size="sm" weight="semibold" className="!text-[24px]">
-                Cripsy Chicken Bites
+              <Typography
+                variant="primary"
+                size="sm"
+                weight="semibold"
+                className="!text-[24px]"
+              >
+                Crispy Chicken Bites
               </Typography>
               <div className="pt-10 flex justify-center items-center absolute bottom-10 left-0 right-0">
                 <Link href={"https://indomiecafe.ng/order-online/"}>

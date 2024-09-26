@@ -39,7 +39,12 @@ const AppDownload = () => {
       <div className="grid md:grid-cols-2">
         <div>
           <div>
-          <Typography variant="secondary" size="sm" weight="medium" className="text-[24px]">
+            <Typography
+              variant="secondary"
+              size="sm"
+              weight="medium"
+              className="text-[24px]"
+            >
               APP DOWNLOAD
             </Typography>
             <Typography
@@ -66,8 +71,8 @@ const AppDownload = () => {
               size="sm"
               className="w-full lg:pt-5 text-[24px]"
             >
-              Lorem ipsum dolor sit amet, consectetur adipisic ingelit, sed do
-              eiusmod tempor incididunt utlabo re et dolore magna aliqua.
+              Join the Trybe! Download the Indomie Cafe app today to enjoy
+              exclusive offers and discounts today.
             </Typography>
             <div className="flex items-center gap-5 py-10">
               <Link href={""}>
@@ -95,7 +100,7 @@ const AppDownload = () => {
         </div>
         <div className="doodle-bg lg:block hidden relative">
           <Image
-            src={`https://res.cloudinary.com/dgbl43ljm/image/upload/v1727028669/Bike_and_Phone_qy8ec1.png`}
+            src={`https://res.cloudinary.com/dgbl43ljm/image/upload/v1727283602/Delievery_man_v1rcgy.png`}
             alt="banner image"
             width={0}
             height={0}

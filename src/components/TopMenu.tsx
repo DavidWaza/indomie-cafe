@@ -13,27 +13,27 @@ const FlipCardData = [
   {
     imgSrc:
       "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727076490/Menu_Card_2_abqlcp.png",
-    label: "Cripsy Chicken Bites",
+    label: "Crispy Chicken Bites",
   },
   {
     imgSrc:
       "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727076490/Menu_Card_1_i4hkg4.png",
-    label: "Cripsy Chicken Bites",
+    label: "Crispy Chicken Bites",
   },
   {
     imgSrc:
       "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727076490/Menu_Card_3_d6sdul.png",
-    label: "Cripsy Chicken Bites",
+    label: "Crispy Chicken Bites",
   },
   {
     imgSrc:
       "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727076490/Menu_Card_4_vmxgwl.png",
-    label: "Cripsy Chicken Bites",
+    label: "Crispy Chicken Bites",
   },
   {
     imgSrc:
       "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727076299/Front_1_vuxl6n.svg",
-    label: "Cripsy Chicken Bites",
+    label: "Crispy Chicken Bites",
   },
 ];
 const TopMenu = () => {

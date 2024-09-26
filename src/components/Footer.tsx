@@ -11,8 +11,23 @@ import {
   SelectTrigger,
   SelectValue,
 } from "./ui/select";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
+
 import { footLinks, socialLinks } from "../../utils/data";
-import { CircleArrowUp } from "lucide-react";
+import { CircleArrowUp, X } from "lucide-react";
+import { Label } from "./ui/label";
+import { Input } from "./ui/input";
+import { Textarea } from "./ui/textarea";
 
 const Footer = () => {
   return (
@@ -83,12 +98,84 @@ const Footer = () => {
                 </div>
               ))}
             </div>
-            <Link href={"https://indomiecafe.ng/order-online/"}>
-              <button className="bg-[#FFCC2A] py-2 md:px-10 px-5 flex items-center text-black font-medium gap-2 hover:translate-x-2 transition-all ease-in-out text-nowrap">
+            <AlertDialog>
+              <AlertDialogTrigger className="bg-[#FFCC2A] py-2 md:px-10 px-5 flex items-center text-black font-medium gap-2 hover:translate-x-2 transition-all ease-in-out text-nowrap">
                 <CircleArrowUp size={20} className="rotate-45" />
                 Leave us Your Feedback
-              </button>
-            </Link>
+              </AlertDialogTrigger>
+
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle className="text-black flex justify-between items-center py-6">
+                    Write to us
+                    <AlertDialogCancel className="border-0">
+                      <X size={20} />
+                    </AlertDialogCancel>
+                  </AlertDialogTitle>
+                  <AlertDialogDescription>
+                    <form>
+                      <div className="grid md:grid-cols-2 gap-5">
+                        <div>
+                          <Label htmlFor="first name" className="!text-sm">
+                            First Name
+                          </Label>
+                          <Input
+                            type="text"
+                            placeholder="Enter first name"
+                            className="bg-[#F8FDFE]"
+                          />
+                        </div>
+                        <div>
+                          <Label htmlFor="first name" className="!text-sm">
+                            Last Name
+                          </Label>
+                          <Input
+                            type="text"
+                            placeholder="Enter last name"
+                            className="bg-[#F8FDFE]"
+                          />
+                        </div>
+                        <div>
+                          <Label htmlFor="first name" className="!text-sm">
+                            Email address
+                          </Label>
+                          <Input
+                            type="email"
+                            placeholder="Enter email address"
+                            className="bg-[#F8FDFE]"
+                          />
+                        </div>
+                        <div>
+                          <Label htmlFor="first name" className="!text-sm">
+                            Phone number
+                          </Label>
+                          <Input
+                            type="number"
+                            placeholder="Enter phone number"
+                            className="bg-[#F8FDFE]"
+                          />
+                        </div>
+                      </div>
+                      <div className="my-5">
+                        <Label htmlFor="first name" className="!text-sm">
+                          Message
+                        </Label>
+                        <Textarea
+                          placeholder="Enter message here..."
+                          className="bg-[#F8FDFE]"
+                        />
+                      </div>
+                    </form>
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter className="pb-6">
+                  <AlertDialogAction className="bg-[#DA0A0C] w-full flex items-center gap-3">
+                    Submit
+                    <CircleArrowUp size={20} className="rotate-45" />
+                  </AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
           </div>
         </div>
       </div>
