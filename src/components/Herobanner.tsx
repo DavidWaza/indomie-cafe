@@ -105,7 +105,7 @@ const Herobanner = () => {
             className="w-full h-auto object-center object-contain absolute z-20 top-10 -left-10 sm:-left-20 lg:translate-x-[7rem] translate-x-6 sm:translate-x-12"
           />
           <Image
-            src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727075820/Big_anqge4.svg"
+            src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727377167/Spicy-native_v0n3pw.png"
             alt="banner image"
             width={0}
             height={0}
@@ -114,7 +114,7 @@ const Herobanner = () => {
           />
           <div className="flex items-center justify-center sm:justify-start gap-4 sm:gap-10 relative">
             <Image
-              src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727075817/Hero_Food_o13gsz.svg"
+              src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727377217/heroplate-mobile_hoq88m.png"
               alt="banner image"
               width={0}
               height={0}
@@ -122,7 +122,7 @@ const Herobanner = () => {
               className="w-[40%] sm:w-[30%] xl:w-1/2 m-auto h-auto object-center object-contain pulse-scale-2"
             />
             <Image
-              src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727075821/Hero_Food_1_mhnqbx.svg"
+              src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727377214/Prawn-Mie_wbgjfe.png"
               alt="banner image"
               width={0}
               height={0}

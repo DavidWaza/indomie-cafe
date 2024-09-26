@@ -112,9 +112,9 @@ html.lenis body {
 .flip-card {
   background-color: transparent;
   border: 1px solid #9b7706;
-  height: 405px;
+  height: 270px;
   width: 100%;
-  padding: 30px;
+  padding: 10px;
   perspective: 1000px;
 }
 
@@ -210,6 +210,13 @@ html.lenis body {
   }
   .banner-hero {
     height: 100vh;
+  }
+  .location-banner {
+    background-image: url("https://res.cloudinary.com/dgbl43ljm/image/upload/v1727377122/Location1-mobile_c3asix.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 65vh;
   }
 }
 

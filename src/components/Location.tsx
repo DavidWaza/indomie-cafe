@@ -5,7 +5,7 @@ import { Element } from "react-scroll";
 const Location = () => {
   return (
     <Element name="location">
-      <div className="location-banner"></div>
+      <div className="location-banner bg-white"></div>
     </Element>
   );
 };

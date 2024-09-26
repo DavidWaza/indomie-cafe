@@ -74,3 +74,67 @@ export const socialLinks = [
     link: "https://x.com/IndomieCafe?s=08",
   },
 ];
+
+export interface ILocation {
+  location:string;
+  index:number;
+  map:string
+
+}
+export const locations:ILocation[] = [
+  {
+    index: 1,
+    location: "Indomie cafe Surulere",
+    map: `http://maps.google.com/maps?q=6.4902331,3.3573441&ll=6.4902331,3.3573441&z=17`,
+  },
+  {
+    index: 2,
+    location: "Indomie cafe VI",
+    map: `http://maps.google.com/maps?q=6.431398269508437,3.4195188312133684&ll=6.431398269508437,3.4195188312133684&z=17`,
+  },
+  {
+    index: 3,
+    location: "Indomie cafe Lekki",
+    map: `http://maps.google.com/maps?q=6.438372889365079,3.5079388238036913&ll=6.438372889365079,3.5079388238036913&z=17`,
+  },
+  {
+    index: 4,
+    location: "Indomie cafe Ikeja",
+    map: `http://maps.google.com/maps?q=6.5870786,3.3578276&ll=6.5870786,3.3578276&z=17`,
+  },
+  {
+    index: 5,
+    location: "Indomie cafe Fola Osibo Lekki 1",
+    map: `http://maps.google.com/maps?q=6.442405854681529,3.473428427148808&ll=6.442405854681529,3.473428427148808&z=17`,
+  },
+  {
+    index: 6,
+    location: "Indomie cafe Festival Mall, Amugo Odofin",
+    map: `http://maps.google.com/maps?q=6.464244,3.3045587&ll=6.464244,3.3045587&z=17`,
+  },
+  {
+    index: 7,
+    location: "Indomie cafe Yaba",
+    map: `http://maps.google.com/maps?q=6.5065705,3.3753739&ll=6.5065705,3.3753739&z=17`,
+  },
+  {
+    index: 8,
+    location: "Indomie cafe Jara Mall, Ikeja",
+    map: `http://maps.google.com/maps?q=6.592355099999999,3.338944199999999&ll=6.592355099999999,3.338944199999999&z=17`,
+  },
+  {
+    index: 9,
+    location: "Indomie cafe Domestic Airport Lagos",
+    map: `http://maps.google.com/maps?q=6.5511269,3.3341105&ll=6.5511269,3.3341105&z=17`,
+  },
+  {
+    index: 10,
+    location: "Indomie cafe MMIA Lagos",
+    map: `http://maps.google.com/maps?q=6.584636199999999,3.333078&ll=6.584636199999999,3.333078&z=17`,
+  },
+  {
+    index: 11,
+    location: "Indomie cafe Central Kitchen",
+    map: `http://maps.google.com/maps?q=6.489671899999999,3.3530719&ll=6.489671899999999,3.3530719&z=17`,
+  },
+];

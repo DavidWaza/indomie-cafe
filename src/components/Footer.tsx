@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import Typography from "./Typography";
 import Image from "next/image";
 import {
@@ -23,13 +23,16 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 
-import { footLinks, socialLinks } from "../../utils/data";
+import { footLinks, ILocation, locations, socialLinks } from "../../utils/data";
 import { CircleArrowUp, X } from "lucide-react";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 
 const Footer = () => {
+  const [selectedLocation, setSelectedLocation] = useState<ILocation | null>(
+    null
+  );
   return (
     <div className="bg-[#FFF6F7] footer-hero lg:pt-[10rem] px-10 md:px-[80px] lg:px-[150px] flex flex-col items-center">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
@@ -53,21 +56,44 @@ const Footer = () => {
             <Typography variant="base" size="sm" weight="semibold">
               Locations
             </Typography>
-            <Select>
-              <SelectTrigger className="w-full md:w-1/2 lg:w-[70%]">
-                <SelectValue placeholder="Indomie Cafe Surulere" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectGroup>
-                  <SelectLabel>Indomie Cafe Locations</SelectLabel>
-                  <SelectItem value="abuja">Indomie Cafe Abuja</SelectItem>
-                  <SelectItem value="jakada">Indomie Cafe Jakanda</SelectItem>
-                  <SelectItem value="yaba">Indomie Cafe Yaba</SelectItem>
-                  <SelectItem value="vi">Indomie Cafe VI</SelectItem>
-                  <SelectItem value="ikeja">Indomie Cafe Ikeja</SelectItem>
-                </SelectGroup>
-              </SelectContent>
-            </Select>
+            <div>
+              <Select
+                onValueChange={(value: string) =>
+                  setSelectedLocation(
+                    locations.find((loc) => loc.location === value) || null
+                  )
+                }
+              >
+                <SelectTrigger className="w-full md:w-1/2 lg:w-[70%]">
+                  <SelectValue placeholder="Indomie Cafe Surulere" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectGroup>
+                    <SelectLabel>Indomie Cafe Locations</SelectLabel>
+                    {locations.map(({ index, location }) => (
+                      <SelectItem value={location} key={index}>
+                        {location}
+                      </SelectItem>
+                    ))}
+                  </SelectGroup>
+                </SelectContent>
+              </Select>
+
+              {selectedLocation && (
+                <p className="mt-4 text-sm">
+                  {selectedLocation.location}
+                  <br />
+                  <a
+                    href={selectedLocation.map}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#FFCC2A] font-semibold py-3 hover:underline"
+                  >
+                    View on Map
+                  </a>
+                </p>
+              )}
+            </div>
             <Typography variant="base" size="sm">
               Leisure Mall, Adeniran Ogunsanya Street, <br />
               Surulere, Lagos <br />

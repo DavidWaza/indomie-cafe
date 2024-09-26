@@ -69,13 +69,13 @@ const AppDownload = () => {
             <Typography
               variant="primary"
               size="sm"
-              className="w-full lg:pt-5 text-[24px]"
+              className="w-full lg:pt-5 text-[20px] md:text-[24px]"
             >
               Join the Trybe! Download the Indomie Cafe app today to enjoy
               exclusive offers and discounts today.
             </Typography>
             <div className="flex items-center gap-5 py-10">
-              <Link href={""}>
+              <Link href={"https://play.google.com/store/apps/details?id=com.indomiecafe.android&hl=en"}>
                 <Image
                   src={`https://res.cloudinary.com/dgbl43ljm/image/upload/v1727014808/google-store_afjlrc.png`}
                   alt="banner image"
@@ -85,7 +85,7 @@ const AppDownload = () => {
                   className="w-full h-auto object-center lg:pt-0 object-contain"
                 />
               </Link>
-              <Link href={""}>
+              <Link href={"https://apps.apple.com/ng/app/indomie-cafe/id6443565740"}>
                 <Image
                   src={`https://res.cloudinary.com/dgbl43ljm/image/upload/v1727014808/app-store_xzptxe.png`}
                   alt="banner image"
@@ -98,14 +98,14 @@ const AppDownload = () => {
             </div>
           </div>
         </div>
-        <div className="doodle-bg lg:block hidden relative">
+        <div className="doodle-bg relative h-[50vh] lg:h-full">
           <Image
-            src={`https://res.cloudinary.com/dgbl43ljm/image/upload/v1727283602/Delievery_man_v1rcgy.png`}
+            src={`https://res.cloudinary.com/dgbl43ljm/image/upload/v1727377149/web-biker-order_mvkrsf.png`}
             alt="banner image"
             width={0}
             height={0}
             sizes="100vw"
-            className="lg:w-[75%] w-full h-auto absolute right-6 top-0 object-center lg:pt-0 object-contain"
+            className="lg:w-[85%] xl:w-[75%] w-full h-auto absolute right-0 top-[50px] lg:top-0 lg:right-20 object-center lg:pt-0 object-contain"
           />
         </div>
       </div>

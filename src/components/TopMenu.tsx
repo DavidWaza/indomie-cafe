@@ -7,33 +7,34 @@ import FlipCard from "./FlipCard";
 const FlipCardData = [
   {
     imgSrc:
-      "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727076490/Menu_Card_v19bu4.png",
-    label: "",
+      "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727379886/Fries_and_Ketchup_atg6xm.jpg",
+    label: "Fries & Ketchup",
   },
   {
     imgSrc:
-      "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727076490/Menu_Card_2_abqlcp.png",
-    label: "Crispy Chicken Bites",
+      "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727379897/Cheezeralla_plate_vjlh1u.jpg",
+    label: "Cheezeralla Plate",
   },
   {
     imgSrc:
-      "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727076490/Menu_Card_1_i4hkg4.png",
-    label: "Crispy Chicken Bites",
+      "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727379923/Frizzled_Egg_plate_slfkwv.jpg",
+    label: "Frizzled Egg",
+  },
+
+  {
+    imgSrc:
+      "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727380008/Asian_Beef_plate_1_zoi3sh.jpg",
+    label: "Asian beef Plate",
   },
   {
     imgSrc:
-      "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727076490/Menu_Card_3_d6sdul.png",
-    label: "Crispy Chicken Bites",
+      "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727379954/Africana_plate_ink88e.jpg",
+    label: "Africana Plate",
   },
   {
     imgSrc:
-      "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727076490/Menu_Card_4_vmxgwl.png",
-    label: "Crispy Chicken Bites",
-  },
-  {
-    imgSrc:
-      "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727076299/Front_1_vuxl6n.svg",
-    label: "Crispy Chicken Bites",
+      "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727380204/Indogizdo_plate_h6qkcx.jpg",
+    label: "indogizdo Plate",
   },
 ];
 const TopMenu = () => {
@@ -87,8 +88,8 @@ const TopMenu = () => {
           </div>
           <div className="pt-20">
             <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
-              {FlipCardData.map(({ imgSrc }, index) => (
-                <FlipCard key={index} imgSrc={imgSrc} />
+              {FlipCardData.map(({ imgSrc, label }, index) => (
+                <FlipCard key={index} imgSrc={imgSrc} label={label} />
               ))}
             </div>
           </div>

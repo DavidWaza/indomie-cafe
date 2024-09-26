@@ -6,9 +6,9 @@ import { CircleArrowUp } from "lucide-react";
 
 interface IFlipCardProps {
   imgSrc: string;
-  // label: string;
+  label: string;
 }
-const FlipCard: React.FC<IFlipCardProps> = ({ imgSrc }) => {
+const FlipCard: React.FC<IFlipCardProps> = ({ imgSrc, label }) => {
   return (
     <div>
       <div className="flip-card">
@@ -31,7 +31,7 @@ const FlipCard: React.FC<IFlipCardProps> = ({ imgSrc }) => {
                 weight="semibold"
                 className="!text-[24px]"
               >
-                Crispy Chicken Bites
+                {label}
               </Typography>
               <div className="pt-10 flex justify-center items-center absolute bottom-10 left-0 right-0">
                 <Link href={"https://indomiecafe.ng/order-online/"}>
