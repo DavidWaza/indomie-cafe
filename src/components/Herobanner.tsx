@@ -93,7 +93,7 @@ const Herobanner = () => {
             width={0}
             height={0}
             sizes="100vw"
-            className="w-[8%] sm:w-[5%] lg:w-[2%] h-auto object-center object-contain absolute z-20 top-[3rem] sm:top-[6rem] lg:translate-x-[2rem] translate-x-6 sm:translate-x-12"
+            className="w-[8%] sm:w-[5%] lg:w-[2%] h-auto object-center object-contain absolute z-20 top-[3rem] sm:top-[6rem] lg:translate-x-[2rem] sm:translate-x-12 hidden lg:block"
           />
 
           <Image
@@ -102,7 +102,7 @@ const Herobanner = () => {
             width={0}
             height={0}
             sizes="100vw"
-            className="w-full h-auto object-center object-contain absolute z-20 top-10 -left-10 sm:-left-20 lg:translate-x-[7rem] translate-x-6 sm:translate-x-12"
+            className="w-full h-auto object-center object-contain absolute z-20 top-10 -left-10 sm:-left-20 lg:translate-x-[7rem] sm:translate-x-12 hidden lg"
           />
           <Image
             src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727377167/Spicy-native_v0n3pw.png"
@@ -110,7 +110,7 @@ const Herobanner = () => {
             width={0}
             height={0}
             sizes="100vw"
-            className="lg:w-[30%] xl:w-[40%] m-auto h-auto object-center object-contain pulse-scale-1"
+            className="w-[40%] lg:w-[30%] xl:w-[40%] m-auto h-auto object-center object-contain pulse-scale-1"
           />
           <div className="flex items-center justify-center sm:justify-start gap-4 sm:gap-10 relative">
             <Image
@@ -119,7 +119,7 @@ const Herobanner = () => {
               width={0}
               height={0}
               sizes="100vw"
-              className="w-[40%] sm:w-[30%] xl:w-1/2 m-auto h-auto object-center object-contain pulse-scale-2"
+              className="w-[40%] sm:w-[20%] xl:w-1/2 m-auto h-auto object-center object-contain pulse-scale-2"
             />
             <Image
               src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1727377214/Prawn-Mie_wbgjfe.png"
@@ -127,7 +127,7 @@ const Herobanner = () => {
               width={0}
               height={0}
               sizes="100vw"
-              className="w-[40%] sm:w-[30%] xl:w-1/2 m-auto h-auto object-center object-contain pulse-scale-2"
+              className="w-[40%] sm:w-[20%] xl:w-1/2 m-auto h-auto object-center object-contain pulse-scale-2"
             />
             <Image
               src="https://res.cloudinary.com/dgbl43ljm/image/upload/v1726955241/Frame_8_mnfivx.png"
@@ -135,7 +135,7 @@ const Herobanner = () => {
               width={0}
               height={0}
               sizes="100vw"
-              className="w-full h-auto object-center object-contain absolute lg:translate-x-[3rem] translate-x-6 sm:translate-x-12"
+              className="w-full h-auto object-center object-contain absolute lg:translate-x-[3rem] sm:translate-x-12"
             />
           </div>
         </div>

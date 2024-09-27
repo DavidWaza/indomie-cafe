@@ -205,10 +205,12 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
       <Typography variant="base" size="sm" className="py-10">
         Tolaram Africa Enterprises Limited <br />
         Address: 44, Jimoh Odutola Street
+      </Typography>
+      <Typography variant="secondary" size="sm" className="py-3 text-center hover:underline">
+        <Link href={"https://akriveiainfotech.com/"}>&copy; 2024 akriveiainfotech</Link>
       </Typography>
     </div>
   );
