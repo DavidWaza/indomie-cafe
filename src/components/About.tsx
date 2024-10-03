@@ -6,7 +6,7 @@ import { Element } from "react-scroll";
 const About = () => {
   return (
     <Element name="about">
-      <div className="about-hero bg-[#FFF6F7] lg:py-[15rem] px-10 md:px-[80px] lg:px-[150px]">
+      <div className="about-hero bg-[#FFF6F7] py-20 lg:py-[15rem] px-10 md:px-[80px] lg:px-[150px]">
         <div className="grid lg:grid-cols-2 gap-10">
           <div>
             <Image

@@ -33,8 +33,8 @@ const FlipCardData = [
   },
   {
     imgSrc:
-      "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727380204/Indogizdo_plate_h6qkcx.jpg",
-    label: "indogizdo Plate",
+      "https://res.cloudinary.com/dgbl43ljm/image/upload/v1727938042/Goat_Meat_Peppersoup_1_qbsa7v.jpg",
+    label: "Goat Meat Peppersoup",
   },
 ];
 const TopMenu = () => {

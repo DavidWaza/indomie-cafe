@@ -49,6 +49,83 @@ const Footer = () => {
               </Link>
             </div>
           ))}
+          <AlertDialog>
+            <AlertDialogTrigger className="text-white font-medium gap-2  transition-all ease-in-out text-nowrap">
+              Contact Us
+            </AlertDialogTrigger>
+
+            <AlertDialogContent>
+              <AlertDialogHeader>
+                <AlertDialogTitle className="text-black flex justify-between items-center py-6">
+                  Write to us
+                  <AlertDialogCancel className="border-0">
+                    <X size={20} />
+                  </AlertDialogCancel>
+                </AlertDialogTitle>
+                <AlertDialogDescription>
+                  <form>
+                    <div className="grid md:grid-cols-2 gap-5">
+                      <div>
+                        <Label htmlFor="first name" className="!text-sm">
+                          First Name
+                        </Label>
+                        <Input
+                          type="text"
+                          placeholder="Enter first name"
+                          className="bg-[#F8FDFE]"
+                        />
+                      </div>
+                      <div>
+                        <Label htmlFor="first name" className="!text-sm">
+                          Last Name
+                        </Label>
+                        <Input
+                          type="text"
+                          placeholder="Enter last name"
+                          className="bg-[#F8FDFE]"
+                        />
+                      </div>
+                      <div>
+                        <Label htmlFor="first name" className="!text-sm">
+                          Email address
+                        </Label>
+                        <Input
+                          type="email"
+                          placeholder="Enter email address"
+                          className="bg-[#F8FDFE]"
+                        />
+                      </div>
+                      <div>
+                        <Label htmlFor="first name" className="!text-sm">
+                          Phone number
+                        </Label>
+                        <Input
+                          type="number"
+                          placeholder="Enter phone number"
+                          className="bg-[#F8FDFE]"
+                        />
+                      </div>
+                    </div>
+                    <div className="my-5">
+                      <Label htmlFor="first name" className="!text-sm">
+                        Message
+                      </Label>
+                      <Textarea
+                        placeholder="Enter message here..."
+                        className="bg-[#F8FDFE]"
+                      />
+                    </div>
+                  </form>
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+              <AlertDialogFooter className="pb-6">
+                <AlertDialogAction className="bg-[#DA0A0C] w-full flex items-center gap-3">
+                  Submit
+                  <CircleArrowUp size={20} className="rotate-45" />
+                </AlertDialogAction>
+              </AlertDialogFooter>
+            </AlertDialogContent>
+          </AlertDialog>
         </div>
 
         <div>
@@ -95,10 +172,9 @@ const Footer = () => {
               )}
             </div>
             <Typography variant="base" size="sm">
-              Leisure Mall, Adeniran Ogunsanya Street, <br />
-              Surulere, Lagos <br />
-              Lagos <br />
-              08177779977
+              <span className="text-[#FFCC2A]">Email:</span>{" "}
+              info.indomiecafe@tolaram.com <br />
+              <span className="text-[#FFCC2A]">Phone:</span>{" "}08177779977
             </Typography>
           </div>
         </div>
@@ -124,84 +200,16 @@ const Footer = () => {
                 </div>
               ))}
             </div>
-            <AlertDialog>
-              <AlertDialogTrigger className="bg-[#FFCC2A] py-2 md:px-10 px-5 flex items-center text-black font-medium gap-2 hover:translate-x-2 transition-all ease-in-out text-nowrap">
+            <Link
+              href={`https://forms.office.com/Pages/ResponsePage.aspx?id=ZMOFyD5pW0-GSmbRd3YbicZJdD7QfYFKuoamHe8_ev5UOEhXTDJPS1NRMzRERE1STEZDMFFYQVFJOC4u`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-[#FFCC2A] py-2 md:px-10 px-5 flex items-center text-black font-medium gap-2 hover:translate-x-2 transition-all ease-in-out text-nowrap">
                 <CircleArrowUp size={20} className="rotate-45" />
                 Leave us Your Feedback
-              </AlertDialogTrigger>
-
-              <AlertDialogContent>
-                <AlertDialogHeader>
-                  <AlertDialogTitle className="text-black flex justify-between items-center py-6">
-                    Write to us
-                    <AlertDialogCancel className="border-0">
-                      <X size={20} />
-                    </AlertDialogCancel>
-                  </AlertDialogTitle>
-                  <AlertDialogDescription>
-                    <form>
-                      <div className="grid md:grid-cols-2 gap-5">
-                        <div>
-                          <Label htmlFor="first name" className="!text-sm">
-                            First Name
-                          </Label>
-                          <Input
-                            type="text"
-                            placeholder="Enter first name"
-                            className="bg-[#F8FDFE]"
-                          />
-                        </div>
-                        <div>
-                          <Label htmlFor="first name" className="!text-sm">
-                            Last Name
-                          </Label>
-                          <Input
-                            type="text"
-                            placeholder="Enter last name"
-                            className="bg-[#F8FDFE]"
-                          />
-                        </div>
-                        <div>
-                          <Label htmlFor="first name" className="!text-sm">
-                            Email address
-                          </Label>
-                          <Input
-                            type="email"
-                            placeholder="Enter email address"
-                            className="bg-[#F8FDFE]"
-                          />
-                        </div>
-                        <div>
-                          <Label htmlFor="first name" className="!text-sm">
-                            Phone number
-                          </Label>
-                          <Input
-                            type="number"
-                            placeholder="Enter phone number"
-                            className="bg-[#F8FDFE]"
-                          />
-                        </div>
-                      </div>
-                      <div className="my-5">
-                        <Label htmlFor="first name" className="!text-sm">
-                          Message
-                        </Label>
-                        <Textarea
-                          placeholder="Enter message here..."
-                          className="bg-[#F8FDFE]"
-                        />
-                      </div>
-                    </form>
-                  </AlertDialogDescription>
-                </AlertDialogHeader>
-                <AlertDialogFooter className="pb-6">
-                  <AlertDialogAction className="bg-[#DA0A0C] w-full flex items-center gap-3">
-                    Submit
-                    <CircleArrowUp size={20} className="rotate-45" />
-                  </AlertDialogAction>
-                </AlertDialogFooter>
-              </AlertDialogContent>
-            </AlertDialog>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -209,8 +217,14 @@ const Footer = () => {
         Tolaram Africa Enterprises Limited <br />
         Address: 44, Jimoh Odutola Street
       </Typography>
-      <Typography variant="secondary" size="sm" className="py-3 text-center hover:underline">
-        <Link href={"https://akriveiainfotech.com/"}>&copy; 2024 akriveiainfotech</Link>
+      <Typography
+        variant="secondary"
+        size="sm"
+        className="py-3 text-center hover:underline"
+      >
+        <Link href={"https://akriveiainfotech.com/"}>
+          &copy; 2024 akriveiainfotech
+        </Link>
       </Typography>
     </div>
   );
